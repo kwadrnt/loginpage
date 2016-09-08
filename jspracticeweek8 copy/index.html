@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+	<script>
+		
+
+		// display data in a popup box
+		alert('hello world')
+		
+		
+		//getting user data! probably the most important thing
+		var username = prompt("What's your name?")
+		console.log(username)
+
+		//4 variable types: numbers, booleans, strings, and arrays
+		var x = 24
+		console.log(x)
+
+		var y = true
+		console.log(y)
+
+		var z = "Time to code!"
+		console.log(z)
+
+		var numArray = [10, 710, 60, 5, 405]
+		console.log(numArray)
+	
+		//concatentation: combining the value of 3 variables into 1
+		//create 3 variables
+		var stringValue = "Welcome "
+		var stringValue2 = "2 "
+		var stringValue3 = "School!"
+
+		var combineVariables3 = stringValue + stringValue2 + stringValue3
+		console.log(combineVariables3)
+
+		// if/else statement
+		if( x > 5 ) {
+			document.write('x is greater than 5')
+		} else {
+			document.write('x is not greater than 5')
+		}
+
+		//basic for loop showing numbers 1-20
+		for (var i = 0; i <= 20; i++) {
+			console.log(i)
+		}
+		//basic function in JS
+		
+
+		function addNumbers(a, b) {
+			document.write(a + b)
+		}
+		addNumbers(10, 20)
+		
+		//prompt box for username
+		var username = prompt("What's your name?")
+		if (username.toLowerCase() == 'alice' || username.toLowerCase() == 'bob') {
+			document.write("Hello " + username + " nice to see you again")
+		}
+
+	</script>
+
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
